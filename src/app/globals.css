@@ -43,6 +43,35 @@ a {
   color: white;
 }
 
+nav {
+  display: flex;
+  gap: 16px;
+  justify-content: space-between;
+  background-color: lightgray;
+  border-radius: 10px;
+  max-width: 1040px;
+  margin: 24px auto;
+}
+
+.mainContent {
+  padding: 48px;
+}
+
+.navItem.active {
+  background-color: rgb(163, 163, 163);
+}
+
+.bgImage {
+  height: 300px;
+  position: relative;
+  width: 100%;
+}
+
+.navItem {
+  color: var(--foreground);
+  padding: 8px 16px;
+}
+
 h1 {
   margin: 24px;
 }
