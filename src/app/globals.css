@@ -13,7 +13,6 @@
 html,
 body {
   max-width: 100vw;
-  overflow-x: hidden;
 }
 
 body {
@@ -59,6 +58,11 @@ nav {
 
 .navItem.active {
   background-color: rgb(163, 163, 163);
+}
+
+.navItem:hover {
+  background-color: var(--background);
+  color: var(--foreground);
 }
 
 .bgImage {
